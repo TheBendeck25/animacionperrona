@@ -1,0 +1,79 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.fondo{
+    background-image: url(/img/fondo.png);
+    width: 80%;
+    height: 22rem;
+    
+}
+.fondoAnimado{
+    animation: carriño_frutiño 3s linear infinite;
+}
+
+@keyframes carriño_frutiño{
+    100%{
+        background-position-x: -10000px;
+    }
+}
+
+
+.rueda{
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 568px;
+   
+}
+
+.ruedaAnimada{
+    animation: wenamechiindesoma 2s linear infinite;
+}
+
+
+@keyframes wenamechiindesoma{
+    100%{
+         transform: rotate(700deg);
+    }
+}
+.rueda2{
+    position: absolute;
+    margin-top: -38px;
+    margin-left: 732px; 
+    
+}
+
+.rueda2Animada{
+    animation: wenamechiindesoma22 2s linear infinite;
+}
+
+@keyframes wenamechiindesoma22{
+    100%{
+         transform: rotate(700deg);
+    }
+}
+
+.carro{
+    margin-top: 155px;
+    margin-left: 530px;
+}
+.particula{
+    background-image: url(/img/particulaaaaaaaaaaaaaaaaaaaaaaaaass.png);
+    position: absolute;
+    width: 25%;
+    height: 45px;
+    margin-top: -35px;
+    margin-left: 105px;
+    
+}
+
+.particulaAnimada{
+    animation: pipi 1s steps(5) infinite;
+}
+
+@keyframes pipi{
+    100%{
+        background-position-x: 30000px;
+    }
+}
